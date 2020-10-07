@@ -9,7 +9,7 @@
 
 #### Goals
 
-- User authentication
+- User authentication utilizing Oauth Saml
 - Link to third party job search platforms & save postings 
 - Leverages AWS Amplify
 - App uses React Native

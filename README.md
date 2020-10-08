@@ -72,12 +72,12 @@ src
 | Component |    Type    | state | props | Description                                               |
 | :-------: | :--------: | :---: | :---: | :-------------------------------------------------------- |
 |  Header   | functional |   n   |   y   | _The header will contain the logo & nav._                 |
-|   Home    |   class    |   n   |   y   | _The homepage will render the options in flexbox._        |
+|   Home    |   class    |   n   |   y   | _The homepage will render the Sign In/Sign Up options._   |
 |   Jobs    |   class    |   n   |   y   | _The Jobs page will render the API calls                  |
-|   Form    |   class    |   y   |   n   | _The form will take input to create field in Airtable._   |
-|   Nav     |   class    |   y   |   y   | _The buttons will link between the two views._            |
-|  Button   |   class    |   y   |   y   | _The numbers will render in results view._                |
-|           |   class    |   y   |   y   | _The scratch will animate the numbers in results view._   |
+|   Form    |   class    |   y   |   n   | _The form will take input to XXX._                        |
+|   Nav     |   class    |   y   |   y   | _The nav will contain the header._                        |
+|  Button   |   class    |   y   |   y   | _The button will XXX_                                     |
+|           |   class    |   y   |   y   | __                                                        |
 |  Footer   | functional |   n   |   y   | _The footer will show creator info_                       |
 
 #### Component Estimates

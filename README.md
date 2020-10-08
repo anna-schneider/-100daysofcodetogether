@@ -33,50 +33,67 @@
 
 #### Component Hierarchy
 
-```
 src
 |__ assets/
       |__ fonts
       |__ images
 |__ components/
-      |__ Header.jsx
+     |__ shared/
+          |__ Form/
+                |__ Form.jsx
+                |__ Form.css
+          |__ Button/
+                |__ Button.jsx
+                |__ Button.css
+          |__ Layout/
+                |__ Layout.jsx/
+                |__ Layout.css/
+                    |__ Header/
+                          |__ Header.jsx
+                          |__ Header.css
+                    |__ Footer/
+                          |__ Footer.jsx
+                          |__ Footer.css
+                    |__ Nav/
+                          |__ Nav.jsx
+                          |__ Nav.css
+|__ screens/
       |__ Home.jsx
-      |__ Results.jsx
-      |__ Form.jsx
-      |__ Buttons.jsx
-      |__ Numbers.jsx
-      |__ Scratch.jsx
-      |__ Footer.jsx
-```
+      |__ Register.jsx
+      |__ Jobs.jsx
+      |__ Job-Tracker.jsx
+      |__ Saved-Jobs.jsx
 
-<br>
+
+
 
 #### Component Breakdown
 
 | Component |    Type    | state | props | Description                                               |
 | :-------: | :--------: | :---: | :---: | :-------------------------------------------------------- |
-|  Header   | functional |   n   |   y   | _The header will contain the logo._                       |
+|  Header   | functional |   n   |   y   | _The header will contain the logo & nav._                 |
 |   Home    |   class    |   n   |   y   | _The homepage will render the options in flexbox._        |
-|  Results  |   class    |   n   |   y   | _The results page will render the API call & random #'s._ |
+|   Jobs    |   class    |   n   |   y   | _The Jobs page will render the API calls                  |
 |   Form    |   class    |   y   |   n   | _The form will take input to create field in Airtable._   |
-|  Buttons  |   class    |   y   |   y   | _The buttons will link between the two views._            |
-|  Numbers  |   class    |   y   |   y   | _The numbers will render in results view._                |
-|  Scratch  |   class    |   y   |   y   | _The scratch will animate the numbers in results view._   |
-|  Footer   | functional |   n   |   y   | _The footer will show info about me and the API used._    |
+|   Nav     |   class    |   y   |   y   | _The buttons will link between the two views._            |
+|  Button   |   class    |   y   |   y   | _The numbers will render in results view._                |
+|           |   class    |   y   |   y   | _The scratch will animate the numbers in results view._   |
+|  Footer   | functional |   n   |   y   | _The footer will show creator info_                       |
 
 #### Component Estimates
 
 | Task                | Priority | Estimated Time | Time Invested | Actual Time |
 | ------------------- | :------: | :------------: | :-----------: | :---------: |
-| Code Components     |    H     |     8 hrs      |    8.5 hrs    |   8.5 hrs   |
-| Setup State & API   |    H     |     6 hrs      |     5 hrs     |    5 hrs    |
-| Setup Route/Link    |    H     |     4 hrs      |    2.5 hrs    |   2.5 hrs   |
-| CSS                 |    L     |     6 hrs      |    8.5 hrs    |   8.5 hrs   |
-| Responsive Design   |    H     |     3 hrs      |     6 hrs     |    6 hrs    |
-| Create CRUD Actions |    H     |     3 hrs      |     3 hrs     |    3 hrs    |
-| Error Handling      |    H     |     2 hrs      |     2 hrs     |    2 hrs    |
-| Post MVP            |    L     |     5 hrs      |     2 hrs     |    2 hrs    |
-| TOTAL               |          |     35 hrs     |   37.5 hrs    |  37.5 hrs   |
+| Planning & Research |    H     |      hrs       |     hrs       |   2 hrs     |
+| Code Components     |    H     |      hrs       |     hrs       |    hrs      |
+| Setup State & API   |    H     |      hrs       |     hrs       |    hrs      |
+| Setup Route/Link    |    H     |      hrs       |     hrs       |    hrs      |
+| CSS                 |    L     |      hrs       |     hrs       |    hrs      |
+| Responsive Design   |    H     |      hrs       |     hrs       |    hrs      |
+| Create CRUD Actions |    H     |      hrs       |     hrs       |    hrs      |
+| Error Handling      |    H     |      hrs       |     hrs       |    hrs      |
+| Post MVP            |    L     |      hrs       |     hrs       |    hrs      |
+| TOTAL               |          |      hrs       |     hrs       |    hrs      |
 
 #### Helper Functions
 
@@ -88,7 +105,7 @@ src
 
 ### Post-MVP
 
-## Create path/flow for recruiters
+- Create path/flow for recruiters
 
 ---
 
@@ -98,5 +115,5 @@ src
 
 ### Code Issues & Resolutions
 
-> Use this section to list of all major issues encountered and their resolution, if you'd like.
+
 ````
